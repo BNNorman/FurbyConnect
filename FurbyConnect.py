@@ -184,7 +184,7 @@ async def messenger():
 					try:
 						# select a random or debug message
 						if not debug:
-							msg_num = random.randint(0, len(directCommands))
+							msg_num = random.randint(0, len(directCommands)-1)
 							msg = directCommands[msg_num]
 						else:
 							# send a fixed command so we can tell if it is obeyed
