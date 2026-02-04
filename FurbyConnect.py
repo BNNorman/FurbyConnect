@@ -5,7 +5,7 @@ from bleak import BleakScanner,BleakClient,BleakError
 from FurbyMoods import MoodActions,MoodTypes
 import logging
 
-logging.basicConfig(filename="Furby.log",filemode="w")
+logging.basicConfig(filename="Furby.log",filemode="w",level=logging.DEBUG)
 log=logging.getLogger("Furby")
 log.info("Starting Furby scanner")
 
