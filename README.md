@@ -26,9 +26,19 @@ I have converted the bluefluff actionlist.md into a huge python list in FurbyCom
 
 Simple classes to select a mood type and action (set/increment)
 
+## FurbyNotes
+Just a program to play the notes Doh,Ray,Me...
+
+## FurbyEyes.py
+
+Just plays the messages with obious eye animations
+
 # issues
 
 If you start 2 Furbies at the same time they will connect to each other and so bluetooth scanning doesn't find them (because they can only communicate with one other Furby at any one time??). I don't think a third Furby joins in normally (Mine didn't). So, start one at a time wait till this program finds them. Detection messages are printed on screen, as are the messages sent to each Furby.
 
 The Furbies can take quite some time to be discovered - though the latest update speeds that up.
 
+# Todo
+
+Research the uploading of own audio and eye animations - people , on github,claim to have done this already.
